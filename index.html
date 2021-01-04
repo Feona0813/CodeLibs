@@ -1,0 +1,116 @@
+<!DOCTYPE html> <html><head>
+        <title>CodeLibs</title>
+    <style>body {
+    padding: 10px 30px;
+    background-color: AliceBlue;
+    font-family: Arial;
+    line-height: 1.7;
+}
+em {
+ font-size: 14px; 
+}
+h3 {
+  text-align: center;
+  color: OrangeRed;
+}
+.blank {
+  background-color: white;
+  border: 2px solid AliceBlue;
+  color: OrangeRed;
+  min-width: 70px;
+  display: inline-block;
+  text-align: center;
+  padding: 0 7px;
+}
+.button-container {
+  text-align: center;
+  height: 500px;
+  margin-top: 50px;
+}
+.final {
+    font-size: 18px;
+    margin-bottom: 200px;
+}</style></head>
+    <body>
+        <div class="words">
+          <strong>Fill in the following words:</strong>
+          <p>(stunning)</p>
+          <p>(pink)</p>
+          <p>(Marsai Martin)</p>
+          <p>(do homework)</p>
+          <p>(Jonathan Yarde)</p>
+          <p>(dogs)</p>
+          <p>(cats)</p>
+          <p>(candies)</p>
+          <p>(swimming)</p>
+          <p>(admired, drawing)</p>
+        </div>
+
+        
+        <div class="button-container">
+          <button onclick="fillInBlanks()">FILL IN THE BLANKS!</button>
+        </div>
+        
+        
+        
+        
+        <!-- Hey, eyes above this line! -->
+    
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div class="final">
+          <h3>ScriptEd In September</h3>
+          <p>Today was a <em class="blank">&nbsp;</em> day at the ULC codding class . The sky was <em class="blank">&nbsp;</em> and the sun was shining brightly over Brooklyn.
+          </p>
+          <p>Class had just started when <em class="blank">&nbsp;</em> walked in the classroom door, and asked if anyone wanted to <em class="blank">&nbsp;</em>?
+          </p>
+          <p><em class="blank">&nbsp;
+         </em> stood up and answered, "Ummm, maybe, but after we learn to code." So <em class="blank">&nbsp;</em> sat down to join the lesson. Everyone typed <em class="blank">&nbsp;</em> and <em class="blank">&nbsp;</em> into Popcode, and after the HTML rendered we had some awesome <em class="blank">&nbsp;</em>.
+          </p>
+          <p>Then everyone <em class="blank">&nbsp;</em> outside and <em class="blank">&nbsp;</em> ! It was a great day.</p>
+        </div>
+    
+
+<script>
+/*__POPCODESTART__*/
+function fillInBlanks() {
+  var content0 = document.getElementsByTagName('p')[0].innerHTML;
+  var content1 = document.getElementsByTagName('p')[1].innerHTML;
+  var content2 = document.getElementsByTagName('p')[2].innerHTML;
+  var content3 = document.getElementsByTagName('p')[3].innerHTML;
+  var content4 = document.getElementsByTagName('p')[4].innerHTML;
+  var content5 = document.getElementsByTagName('p')[5].innerHTML;
+  var content6 = document.getElementsByTagName('p')[6].innerHTML;
+  var content7 = document.getElementsByTagName('p')[7].innerHTML;
+  var content8 = document.getElementsByTagName('p')[8].innerHTML;
+  var content9 = document.getElementsByTagName('p')[9].innerHTML;
+  document.getElementsByClassName("blank")[0].innerHTML = content0;
+  document.getElementsByClassName("blank")[1].innerHTML = content1;
+  document.getElementsByClassName("blank")[2].innerHTML = content2;
+  document.getElementsByClassName("blank")[3].innerHTML = content3;
+  document.getElementsByClassName("blank")[4].innerHTML = content4;
+  document.getElementsByClassName("blank")[5].innerHTML = content2;
+  document.getElementsByClassName("blank")[6].innerHTML = content5;
+  document.getElementsByClassName("blank")[7].innerHTML = content6;
+  document.getElementsByClassName("blank")[8].innerHTML = content7;
+  document.getElementsByClassName("blank")[9].innerHTML = content8;
+  document.getElementsByClassName("blank")[10].innerHTML = content9;
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBvcGNvZGVQcmV2aWV3LmpzIl0sIm5hbWVzIjpbImZpbGxJbkJsYW5rcyIsImNvbnRlbnQwIiwiZG9jdW1lbnQiLCJnZXRFbGVtZW50c0J5VGFnTmFtZSIsImlubmVySFRNTCIsImNvbnRlbnQxIiwiY29udGVudDIiLCJjb250ZW50MyIsImNvbnRlbnQ0IiwiY29udGVudDUiLCJjb250ZW50NiIsImNvbnRlbnQ3IiwiY29udGVudDgiLCJjb250ZW50OSIsImdldEVsZW1lbnRzQnlDbGFzc05hbWUiXSwibWFwcGluZ3MiOiJBQUFBLFNBQVNBLFlBQVQsR0FBd0I7QUFDcEIsTUFBSUMsUUFBUSxHQUFHQyxRQUFRLENBQUNDLG9CQUFULENBQThCLEdBQTlCLEVBQW1DLENBQW5DLEVBQXNDQyxTQUFyRDtBQUNBLE1BQUlDLFFBQVEsR0FBR0gsUUFBUSxDQUFDQyxvQkFBVCxDQUE4QixHQUE5QixFQUFtQyxDQUFuQyxFQUFzQ0MsU0FBckQ7QUFDQSxNQUFJRSxRQUFRLEdBQUdKLFFBQVEsQ0FBQ0Msb0JBQVQsQ0FBOEIsR0FBOUIsRUFBbUMsQ0FBbkMsRUFBc0NDLFNBQXJEO0FBQ0EsTUFBSUcsUUFBUSxHQUFHTCxRQUFRLENBQUNDLG9CQUFULENBQThCLEdBQTlCLEVBQW1DLENBQW5DLEVBQXNDQyxTQUFyRDtBQUNBLE1BQUlJLFFBQVEsR0FBR04sUUFBUSxDQUFDQyxvQkFBVCxDQUE4QixHQUE5QixFQUFtQyxDQUFuQyxFQUFzQ0MsU0FBckQ7QUFDQSxNQUFJSyxRQUFRLEdBQUdQLFFBQVEsQ0FBQ0Msb0JBQVQsQ0FBOEIsR0FBOUIsRUFBbUMsQ0FBbkMsRUFBc0NDLFNBQXJEO0FBQ0EsTUFBSU0sUUFBUSxHQUFHUixRQUFRLENBQUNDLG9CQUFULENBQThCLEdBQTlCLEVBQW1DLENBQW5DLEVBQXNDQyxTQUFyRDtBQUNBLE1BQUlPLFFBQVEsR0FBR1QsUUFBUSxDQUFDQyxvQkFBVCxDQUE4QixHQUE5QixFQUFtQyxDQUFuQyxFQUFzQ0MsU0FBckQ7QUFDQSxNQUFJUSxRQUFRLEdBQUdWLFFBQVEsQ0FBQ0Msb0JBQVQsQ0FBOEIsR0FBOUIsRUFBbUMsQ0FBbkMsRUFBc0NDLFNBQXJEO0FBQ0EsTUFBSVMsUUFBUSxHQUFHWCxRQUFRLENBQUNDLG9CQUFULENBQThCLEdBQTlCLEVBQW1DLENBQW5DLEVBQXNDQyxTQUFyRDtBQUVBRixFQUFBQSxRQUFRLENBQUNZLHNCQUFULENBQWdDLE9BQWhDLEVBQXlDLENBQXpDLEVBQTRDVixTQUE1QyxHQUF3REgsUUFBeEQ7QUFDQUMsRUFBQUEsUUFBUSxDQUFDWSxzQkFBVCxDQUFnQyxPQUFoQyxFQUF5QyxDQUF6QyxFQUE0Q1YsU0FBNUMsR0FBd0RDLFFBQXhEO0FBQ0FILEVBQUFBLFFBQVEsQ0FBQ1ksc0JBQVQsQ0FBZ0MsT0FBaEMsRUFBeUMsQ0FBekMsRUFBNENWLFNBQTVDLEdBQXdERSxRQUF4RDtBQUNBSixFQUFBQSxRQUFRLENBQUNZLHNCQUFULENBQWdDLE9BQWhDLEVBQXlDLENBQXpDLEVBQTRDVixTQUE1QyxHQUF3REcsUUFBeEQ7QUFDQUwsRUFBQUEsUUFBUSxDQUFDWSxzQkFBVCxDQUFnQyxPQUFoQyxFQUF5QyxDQUF6QyxFQUE0Q1YsU0FBNUMsR0FBd0RJLFFBQXhEO0FBQ0FOLEVBQUFBLFFBQVEsQ0FBQ1ksc0JBQVQsQ0FBZ0MsT0FBaEMsRUFBeUMsQ0FBekMsRUFBNENWLFNBQTVDLEdBQXdERSxRQUF4RDtBQUNBSixFQUFBQSxRQUFRLENBQUNZLHNCQUFULENBQWdDLE9BQWhDLEVBQXlDLENBQXpDLEVBQTRDVixTQUE1QyxHQUF3REssUUFBeEQ7QUFDQVAsRUFBQUEsUUFBUSxDQUFDWSxzQkFBVCxDQUFnQyxPQUFoQyxFQUF5QyxDQUF6QyxFQUE0Q1YsU0FBNUMsR0FBd0RNLFFBQXhEO0FBQ0FSLEVBQUFBLFFBQVEsQ0FBQ1ksc0JBQVQsQ0FBZ0MsT0FBaEMsRUFBeUMsQ0FBekMsRUFBNENWLFNBQTVDLEdBQXdETyxRQUF4RDtBQUNBVCxFQUFBQSxRQUFRLENBQUNZLHNCQUFULENBQWdDLE9BQWhDLEVBQXlDLENBQXpDLEVBQTRDVixTQUE1QyxHQUF3RFEsUUFBeEQ7QUFDQVYsRUFBQUEsUUFBUSxDQUFDWSxzQkFBVCxDQUFnQyxPQUFoQyxFQUF5QyxFQUF6QyxFQUE2Q1YsU0FBN0MsR0FBeURTLFFBQXpEO0FBQ0giLCJzb3VyY2VzQ29udGVudCI6WyJmdW5jdGlvbiBmaWxsSW5CbGFua3MoKSB7XG4gICAgdmFyIGNvbnRlbnQwID0gZG9jdW1lbnQuZ2V0RWxlbWVudHNCeVRhZ05hbWUoJ3AnKVswXS5pbm5lckhUTUw7XG4gICAgdmFyIGNvbnRlbnQxID0gZG9jdW1lbnQuZ2V0RWxlbWVudHNCeVRhZ05hbWUoJ3AnKVsxXS5pbm5lckhUTUw7XG4gICAgdmFyIGNvbnRlbnQyID0gZG9jdW1lbnQuZ2V0RWxlbWVudHNCeVRhZ05hbWUoJ3AnKVsyXS5pbm5lckhUTUw7XG4gICAgdmFyIGNvbnRlbnQzID0gZG9jdW1lbnQuZ2V0RWxlbWVudHNCeVRhZ05hbWUoJ3AnKVszXS5pbm5lckhUTUw7XG4gICAgdmFyIGNvbnRlbnQ0ID0gZG9jdW1lbnQuZ2V0RWxlbWVudHNCeVRhZ05hbWUoJ3AnKVs0XS5pbm5lckhUTUw7XG4gICAgdmFyIGNvbnRlbnQ1ID0gZG9jdW1lbnQuZ2V0RWxlbWVudHNCeVRhZ05hbWUoJ3AnKVs1XS5pbm5lckhUTUw7XG4gICAgdmFyIGNvbnRlbnQ2ID0gZG9jdW1lbnQuZ2V0RWxlbWVudHNCeVRhZ05hbWUoJ3AnKVs2XS5pbm5lckhUTUw7XG4gICAgdmFyIGNvbnRlbnQ3ID0gZG9jdW1lbnQuZ2V0RWxlbWVudHNCeVRhZ05hbWUoJ3AnKVs3XS5pbm5lckhUTUw7XG4gICAgdmFyIGNvbnRlbnQ4ID0gZG9jdW1lbnQuZ2V0RWxlbWVudHNCeVRhZ05hbWUoJ3AnKVs4XS5pbm5lckhUTUw7XG4gICAgdmFyIGNvbnRlbnQ5ID0gZG9jdW1lbnQuZ2V0RWxlbWVudHNCeVRhZ05hbWUoJ3AnKVs5XS5pbm5lckhUTUw7XG4gICAgXG4gICAgZG9jdW1lbnQuZ2V0RWxlbWVudHNCeUNsYXNzTmFtZShcImJsYW5rXCIpWzBdLmlubmVySFRNTCA9IGNvbnRlbnQwO1xuICAgIGRvY3VtZW50LmdldEVsZW1lbnRzQnlDbGFzc05hbWUoXCJibGFua1wiKVsxXS5pbm5lckhUTUwgPSBjb250ZW50MTtcbiAgICBkb2N1bWVudC5nZXRFbGVtZW50c0J5Q2xhc3NOYW1lKFwiYmxhbmtcIilbMl0uaW5uZXJIVE1MID0gY29udGVudDI7XG4gICAgZG9jdW1lbnQuZ2V0RWxlbWVudHNCeUNsYXNzTmFtZShcImJsYW5rXCIpWzNdLmlubmVySFRNTCA9IGNvbnRlbnQzO1xuICAgIGRvY3VtZW50LmdldEVsZW1lbnRzQnlDbGFzc05hbWUoXCJibGFua1wiKVs0XS5pbm5lckhUTUwgPSBjb250ZW50NDtcbiAgICBkb2N1bWVudC5nZXRFbGVtZW50c0J5Q2xhc3NOYW1lKFwiYmxhbmtcIilbNV0uaW5uZXJIVE1MID0gY29udGVudDI7XG4gICAgZG9jdW1lbnQuZ2V0RWxlbWVudHNCeUNsYXNzTmFtZShcImJsYW5rXCIpWzZdLmlubmVySFRNTCA9IGNvbnRlbnQ1O1xuICAgIGRvY3VtZW50LmdldEVsZW1lbnRzQnlDbGFzc05hbWUoXCJibGFua1wiKVs3XS5pbm5lckhUTUwgPSBjb250ZW50NjtcbiAgICBkb2N1bWVudC5nZXRFbGVtZW50c0J5Q2xhc3NOYW1lKFwiYmxhbmtcIilbOF0uaW5uZXJIVE1MID0gY29udGVudDc7XG4gICAgZG9jdW1lbnQuZ2V0RWxlbWVudHNCeUNsYXNzTmFtZShcImJsYW5rXCIpWzldLmlubmVySFRNTCA9IGNvbnRlbnQ4O1xuICAgIGRvY3VtZW50LmdldEVsZW1lbnRzQnlDbGFzc05hbWUoXCJibGFua1wiKVsxMF0uaW5uZXJIVE1MID0gY29udGVudDk7XG59Il19</script></body></html>
